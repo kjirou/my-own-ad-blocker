@@ -9,5 +9,10 @@
   "keywords": [],
   "author": "kjirou",
   "license": "SEE LICENSE IN LICENSE",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
 }
