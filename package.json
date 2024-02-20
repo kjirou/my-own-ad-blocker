@@ -1,12 +1,13 @@
 {
   "name": "my-own-ad-blocker",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A Chrome extension designed for personal use to block ADs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "kjirou",
+  "license": "SEE LICENSE IN LICENSE",
+  "private": true
 }
