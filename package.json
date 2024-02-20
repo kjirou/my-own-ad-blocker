@@ -2,9 +2,13 @@
   "name": "my-own-ad-blocker",
   "version": "0.0.0",
   "description": "A Chrome extension designed for personal use to block ADs",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "develop": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc --noEmit"
   },
   "keywords": [],
   "author": "kjirou",
